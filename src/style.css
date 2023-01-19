@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  background: #4f4e49;
+  background: #5b543d;
 }
 
 .container {
@@ -27,11 +27,15 @@ body {
 }
 
 .grid-3-columns {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4-columns {
   grid-template-columns: repeat(4, 1fr);
 }
 
 .grid-3-columns-footer {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
 }
 
 .card {
@@ -51,7 +55,7 @@ body {
 }
 
 .card-body {
-  padding: 30px;
+  padding: 30px 5px;
 }
 
 .card-footer {
@@ -68,8 +72,15 @@ body {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
-  background-color: #42413d;
+  background-color: #7a6751;
   text-decoration: none;
+  border: 2px solid white;
+}
+
+.link:hover {
+  border: 2px solid #7a6751;
+  background-color: white;
+  color: #7a6751;
 }
 
 section {
@@ -120,6 +131,7 @@ header a {
   font-size: 14px;
   line-height: 1.5;
   text-align: center;
+  border: 2px solid #42413d;
   color: #42413d;
   padding: 16px 32px;
   margin-top: 32px;
@@ -128,6 +140,12 @@ header a {
   text-decoration: none;
   text-transform: uppercase;
   background: white;
+}
+
+header a:hover {
+  border: 2px solid white;
+  background-color: #42413d;
+  color: white;
 }
 
 main {
@@ -185,6 +203,7 @@ footer {
       rgba(66, 65, 61, 0.9)
     ),
     url("../images/arizona\ footer.jpeg");
+  background-position: center top 55%;
   background-repeat: no-repeat;
   background-size: cover;
 }
