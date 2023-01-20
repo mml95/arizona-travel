@@ -242,7 +242,7 @@ thead {
 }
 
 td {
-  border: 1px solid lightgray;
+  border: thin solid lightgray;
 }
 
 th,
