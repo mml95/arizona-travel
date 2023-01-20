@@ -218,6 +218,11 @@ main p {
 
 main a {
   color: #42413d;
+  opacity: 0.7;
+}
+
+table {
+  padding-top: 16px;
 }
 
 th,
