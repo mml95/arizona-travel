@@ -248,10 +248,25 @@ footer a {
   opacity: 0.7;
 }
 
-/* @media (max-width: 1300px) {
-  .instagram-embed {
-    margin: 10px auto;
-  } */
+@media (max-width: 1300px) {
+  .instagram-center {
+    grid-gap: 32px;
+    text-align: -webkit-center;
+  }
+}
+
+@media (max-width: 1263px) {
+  .instagram-center {
+    grid-gap: 20px;
+  }
+}
+
+@media (max-width: 1230px) {
+  .instagram-center {
+    grid-gap: 15px;
+    display: block;
+  }
+}
 
 @media (max-width: 960px) {
   header {
@@ -270,7 +285,8 @@ footer a {
     font-size: 12px;
   }
 
-  .grid {
+  .grid,
+  .grid-4-columns {
     grid-template-columns: 1fr;
     grid-gap: 32px;
   }
@@ -285,6 +301,9 @@ footer a {
 
   .embed {
     aspect-ratio: 16/9;
+  }
+  .instagram-center {
+    display: block;
   }
 }
 
