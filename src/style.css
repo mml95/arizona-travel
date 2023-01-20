@@ -76,6 +76,7 @@ body {
 .card-body ul {
   list-style: none;
   padding-left: 0;
+  opacity: 0.7;
 }
 
 .card-footer {
@@ -218,16 +219,27 @@ main p {
 
 main a {
   color: #42413d;
-  opacity: 0.7;
 }
 
 table {
   padding-top: 16px;
 }
 
+thead {
+  background-color: lightgray;
+}
+
+td {
+  border: 1px solid lightgray;
+}
+
 th,
 tr {
   text-align: center;
+}
+
+th {
+  padding: 10px;
 }
 
 .overflow {
@@ -330,6 +342,18 @@ footer a {
   }
   .instagram-center {
     display: block;
+  }
+}
+
+@media (max-width: 1041px) {
+  th {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 806px) {
+  th {
+    padding: 5px;
   }
 }
 
