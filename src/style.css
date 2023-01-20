@@ -31,8 +31,10 @@ body {
 }
 
 .grid-4-columns {
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 40px;
+  grid-column-gap: 25px;
+  padding-top: 16px;
 }
 
 .grid-3-columns-footer {
@@ -60,7 +62,12 @@ body {
 }
 
 .card-body {
-  padding: 30px 5px;
+  padding: 30px 10px;
+}
+
+.card-body ul {
+  list-style: none;
+  padding-left: 0;
 }
 
 .card-footer {
