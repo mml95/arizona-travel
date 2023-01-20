@@ -22,8 +22,12 @@ body {
   display: block;
 }
 
+.grid-1-column {
+  grid-template-columns: 1fr;
+}
+
 .grid-2-columns {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .grid-3-columns {
@@ -214,6 +218,15 @@ main p {
 
 main a {
   color: #42413d;
+}
+
+th,
+tr {
+  text-align: center;
+}
+
+.overflow {
+  overflow: auto;
 }
 
 footer {
