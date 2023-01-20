@@ -215,6 +215,10 @@ section.secondary {
   border: 2px solid white;
 }
 
+.even-out {
+  margin-top: 34px;
+}
+
 .link:hover {
   border: 2px solid #7a6751;
   background-color: white;
@@ -347,6 +351,10 @@ footer a {
 
   .embed {
     aspect-ratio: 16/9;
+  }
+
+  .even-out {
+    margin-top: 0;
   }
   .instagram-center {
     display: block;
