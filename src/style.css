@@ -258,6 +258,13 @@ th {
   overflow: auto;
 }
 
+.youtube-embed {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 16px;
+  padding-top: 16px;
+}
+
 footer {
   color: white;
   background-image: linear-gradient(
