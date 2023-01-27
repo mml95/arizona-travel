@@ -185,9 +185,9 @@ section.secondary {
   grid-gap: 0;
 }
 
-.google-embed {
+/* .google-embed {
   margin-bottom: 10px;
-}
+} */
 
 .embed {
   width: 100%;
@@ -228,7 +228,7 @@ section.secondary {
 
 .pinterest-embed,
 .instagram-embed {
-  margin: 28px 0 0;
+  margin: 15px 0 0;
 }
 
 table {
