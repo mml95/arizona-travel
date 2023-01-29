@@ -371,10 +371,6 @@ footer a {
   .embed {
     aspect-ratio: 16/9;
   }
-
-  .even-out {
-    margin-top: 0;
-  }
 }
 
 @media (max-width: 1041px) {
